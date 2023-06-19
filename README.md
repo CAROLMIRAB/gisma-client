@@ -2,7 +2,7 @@
 
 # Cliente GISMA (React 17)
 
-![Cliente GISMA](./screenshot.png)
+[Cliente GISMA]
 
 ## Descripción
 
@@ -35,45 +35,13 @@ cd gisma-cliente
 npm install
 ```
 
-3. Configura el archivo de configuración:
+3. Inicia el servidor de desarrollo:
 
 ```bash
-cp .env.example .env
+npm run start
 ```
 
-Edita el archivo `.env` y proporciona las variables de entorno necesarias para la integración de la API y la autenticación.
-
-4. Inicia el servidor de desarrollo:
-
-```bash
-npm start
-```
-
-5. Abre tu navegador y visita `http://localhost:3000` para acceder al Cliente GISMA.
-
-## Estructura de Carpetas
-
-```
-cliente-gisma/
-  ├── public/
-  │   ├── index.html
-  │   └── ...
-  ├── src/
-  │   ├── components/
-  │   │   ├── Mapa.js
-  │   │   ├── PanelControl.js
-  │   │   └── ...
-  │   ├── services/
-  │   │   ├── api.js
-  │   │   └── ...
-  │   ├── App.js
-  │   ├── index.js
-  │   └── ...
-  ├── .gitignore
-  ├── package.json
-  ├── README.md
-  └── ...
-```
+4. Abre tu navegador y visita `http://localhost:3000` para acceder al Cliente GISMA.
 
 ## Contribuciones
 
