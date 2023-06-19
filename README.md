@@ -12,35 +12,26 @@ El Cliente GISMA es una aplicación web construida con React 17 que sirve como i
 
 - **React 17**: Utiliza la última versión de React para construir interfaces de usuario.
 - **Material UI**: Asegura que la aplicación sea responsiva y esté optimizada para varios dispositivos y tamaños de pantalla.
-- **Integración de API**: Se comunica con la API de GISMA para obtener y actualizar datos.
-- **Visualización de Mapas**: Renderiza mapas interactivos utilizando una biblioteca como Mapbox, Leaflet o Google Maps.
-- **Autenticación de Usuarios**: Implementa características de autenticación y autorización de usuarios para un acceso seguro.
-- **Filtrado de Datos**: Permite a los usuarios filtrar y buscar datos geográficos específicos basados en varios criterios.
-- **Visualización de Datos**: Presenta datos de manera visualmente atractiva e informativa, como gráficos, diagramas o mapas de calor.
-- **Edición de Datos**: Permite a los usuarios crear, actualizar y eliminar datos geográficos a través de formularios e interfaces amigables.
-- **Manejo de Errores**: Proporciona mensajes de error significativos y maneja de manera elegante los escenarios de error.
-- **Pruebas**: Incluye pruebas unitarias e integradas utilizando un framework de pruebas como Jest o React Testing Library.
-- **Linting**: Configurado con ESLint para garantizar la calidad del código y mantener estándares de codificación consistentes.
 
 ## Prerrequisitos
 
 Asegúrate de tener instalados los siguientes elementos:
 
 - Node.js
-- npm o Yarn
+- npm
 
 ## Comenzar
 
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/cliente-gisma.git
+git clone https://github.com/CAROLMIRAB/gisma-client.git
 ```
 
 2. Instala las dependencias:
 
 ```bash
-cd cliente-gisma
+cd gisma-cliente
 npm install
 ```
 
